@@ -168,7 +168,7 @@ Debug.trace("line started");  //G***del
 			}
 			catch (IOException e)
 			{
-				Debug.error(e);
+				Debug.error(e);	//TODO fix
 			}
 			if (nBytesRead >= 0)
 			{
@@ -189,7 +189,7 @@ while (total < totalToRead && !stopped)}
 		  }
 			catch (LineUnavailableException ex)
 			{
-				Debug.error(ex);
+				Debug.error(ex);	//TODO fix
 		  }
 		}
 
