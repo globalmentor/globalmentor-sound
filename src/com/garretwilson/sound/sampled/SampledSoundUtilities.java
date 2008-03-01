@@ -2,7 +2,8 @@ package com.garretwilson.sound.sampled;
 
 import java.io.*;
 import javax.sound.sampled.*;
-import com.garretwilson.util.Debug;
+
+import com.globalmentor.util.Debug;
 
 /**A collection of methods for manipulating sampled sounds.
 @author Garret Wilson
