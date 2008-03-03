@@ -25,7 +25,7 @@ import com.globalmentor.util.Debug;
 /**A collection of methods for manipulating sampled sounds.
 @author Garret Wilson
 */
-public class SampledSoundUtilities
+public class SampledSounds
 {
 
 	/**Constructs and returns a data line of the specified type from the given
