@@ -20,7 +20,7 @@ import java.io.*;
 
 import javax.sound.sampled.*;
 
-import com.globalmentor.util.Debug;
+import com.globalmentor.log.Log;
 
 /**A collection of methods for manipulating sampled sounds.
 @author Garret Wilson
@@ -108,7 +108,7 @@ public class SampledSounds
 					}
 					catch (IOException e)
 					{
-						Debug.error(e);	//TODO fix
+						Log.error(e);	//TODO fix
 					}
 					if (nBytesRead >= 0)
 					{
@@ -118,7 +118,7 @@ public class SampledSounds
 		  }
 			catch (LineUnavailableException ex)
 			{
-				Debug.error(ex);	//TODO fix
+				Log.error(ex);	//TODO fix
 		  }
 		}
 	}
