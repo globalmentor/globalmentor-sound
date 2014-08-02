@@ -37,11 +37,11 @@ public class SampledSounds
 	@param lineClass The type of line desired (for example <code>Clip.class</code>).
 	@return A data line from the input stream. This line will already be open if
 		the line is a <code>Clip</code>.
-	@exception IOException Thrown if there is an error reading from the given
+	@throws IOException Thrown if there is an error reading from the given
 		input stream.
-	@exception UnsupportedAudioFileException Thrown if the audio file represented
+	@throws UnsupportedAudioFileException Thrown if the audio file represented
 		by the input stream is not supported.
-	@exception LineUnavailableException Thrown if the line is not available because,
+	@throws LineUnavailableException Thrown if the line is not available because,
 		for example, it is already in use by another application.
 	*/
 	public static DataLine getDataLine(final InputStream inputStream, final Class<?> lineClass) throws IOException, UnsupportedAudioFileException, LineUnavailableException
