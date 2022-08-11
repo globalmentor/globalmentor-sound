@@ -32,7 +32,7 @@
 		<dependency>
 			<groupId>com.globalmentor</groupId>
 			<artifactId>globalmentor-log</artifactId>
-			<version>0.5.1-SNAPSHOT</version>
+			<version>0.6.4</version>
 		</dependency>
 	</dependencies>
 </project>
